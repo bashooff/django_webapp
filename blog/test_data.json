@@ -1,0 +1,296 @@
+[
+  {
+    "customer": "c01",
+    "orderedItemID": 65,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c02",
+    "orderedItemID": 49,
+    "amount": 4,
+    "gender": "female"
+  },
+  {
+    "customer": "c03",
+    "orderedItemID": 18,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c04",
+    "orderedItemID": 93,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c05",
+    "orderedItemID": 16,
+    "amount": 5,
+    "gender": "female"
+  },
+  {
+    "customer": "c06",
+    "orderedItemID": 35,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c07",
+    "orderedItemID": 46,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c08",
+    "orderedItemID": 71,
+    "amount": 1,
+    "gender": "female"
+  },
+  {
+    "customer": "c09",
+    "orderedItemID": 11,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c10",
+    "orderedItemID": 55,
+    "amount": 2,
+    "gender": "male"
+  },
+  {
+    "customer": "c11",
+    "orderedItemID": 63,
+    "amount": 1,
+    "gender": "female"
+  },
+  {
+    "customer": "c12",
+    "orderedItemID": 96,
+    "amount": 3,
+    "gender": "male"
+  },
+  {
+    "customer": "c13",
+    "orderedItemID": 25,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c14",
+    "orderedItemID": 90,
+    "amount": 3,
+    "gender": "female"
+  },
+  {
+    "customer": "c15",
+    "orderedItemID": 92,
+    "amount": 2,
+    "gender": "male"
+  },
+  {
+    "customer": "c16",
+    "orderedItemID": 26,
+    "amount": 3,
+    "gender": "male"
+  },
+  {
+    "customer": "c17",
+    "orderedItemID": 74,
+    "amount": 3,
+    "gender": "female"
+  },
+  {
+    "customer": "c18",
+    "orderedItemID": 39,
+    "amount": 5,
+    "gender": "male"
+  },
+  {
+    "customer": "c19",
+    "orderedItemID": 22,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c20",
+    "orderedItemID": 53,
+    "amount": 3,
+    "gender": "female"
+  },
+  {
+    "customer": "c21",
+    "orderedItemID": 31,
+    "amount": 3,
+    "gender": "male"
+  },
+  {
+    "customer": "c22",
+    "orderedItemID": 12,
+    "amount": 5,
+    "gender": "male"
+  },
+  {
+    "customer": "c23",
+    "orderedItemID": 18,
+    "amount": 2,
+    "gender": "female"
+  },
+  {
+    "customer": "c24",
+    "orderedItemID": 46,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c25",
+    "orderedItemID": 59,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c26",
+    "orderedItemID": 94,
+    "amount": 5,
+    "gender": "female"
+  },
+  {
+    "customer": "c27",
+    "orderedItemID": 92,
+    "amount": 5,
+    "gender": "male"
+  },
+  {
+    "customer": "c28",
+    "orderedItemID": 87,
+    "amount": 3,
+    "gender": "male"
+  },
+  {
+    "customer": "c29",
+    "orderedItemID": 84,
+    "amount": 5,
+    "gender": "female"
+  },
+  {
+    "customer": "c30",
+    "orderedItemID": 22,
+    "amount": 2,
+    "gender": "male"
+  },
+  {
+    "customer": "c31",
+    "orderedItemID": 9,
+    "amount": 2,
+    "gender": "male"
+  },
+  {
+    "customer": "c32",
+    "orderedItemID": 6,
+    "amount": 3,
+    "gender": "female"
+  },
+  {
+    "customer": "c33",
+    "orderedItemID": 76,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c34",
+    "orderedItemID": 45,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c35",
+    "orderedItemID": 88,
+    "amount": 4,
+    "gender": "female"
+  },
+  {
+    "customer": "c36",
+    "orderedItemID": 59,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c37",
+    "orderedItemID": 30,
+    "amount": 4,
+    "gender": "male"
+  },
+  {
+    "customer": "c38",
+    "orderedItemID": 47,
+    "amount": 1,
+    "gender": "female"
+  },
+  {
+    "customer": "c39",
+    "orderedItemID": 29,
+    "amount": 3,
+    "gender": "male"
+  },
+  {
+    "customer": "c40",
+    "orderedItemID": 63,
+    "amount": 2,
+    "gender": "male"
+  },
+  {
+    "customer": "c41",
+    "orderedItemID": 96,
+    "amount": 3,
+    "gender": "female"
+  },
+  {
+    "customer": "c42",
+    "orderedItemID": 13,
+    "amount": 2,
+    "gender": "male"
+  },
+  {
+    "customer": "c43",
+    "orderedItemID": 51,
+    "amount": 3,
+    "gender": "male"
+  },
+  {
+    "customer": "c44",
+    "orderedItemID": 69,
+    "amount": 2,
+    "gender": "female"
+  },
+  {
+    "customer": "c45",
+    "orderedItemID": 10,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c46",
+    "orderedItemID": 24,
+    "amount": 3,
+    "gender": "male"
+  },
+  {
+    "customer": "c47",
+    "orderedItemID": 34,
+    "amount": 1,
+    "gender": "male"
+  },
+  {
+    "customer": "c48",
+    "orderedItemID": 98,
+    "amount": 3,
+    "gender": "female"
+  },
+  {
+    "customer": "c49",
+    "orderedItemID": 98,
+    "amount": 3,
+    "gender": "female"
+  }
+]
