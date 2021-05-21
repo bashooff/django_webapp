@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 
+    <script type="text/javascript" language="javascript" src="TableFilter/tablefilter.js"></script> 
+
     {% if title %} 
         <title>Django Project - {{ title }}</title>
     {% else %}
@@ -31,6 +33,7 @@
                 <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
                 <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
                 <a class="nav-item nav-link" href="{% url 'blog-table' %}">Table</a>
+                <a class="nav-item nav-link" href="{% url 'blog-data' %}">Data</a>
               </div>
               <!-- Navbar Right Side -->
               <div class="navbar-nav">

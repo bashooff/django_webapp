@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %} 
+{% block content %}
+<table>
+    {% for customer in customer_data %}
+        {{ customer.customer }}
+        {{ customer.orderedItemID }}
+        {{ customer.amount }}
+        {{ customer.gender }}
+    {% endfor %}
+</table>
+
+{% endblock content %}

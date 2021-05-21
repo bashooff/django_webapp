@@ -1,8 +1,6 @@
 from django.shortcuts import render
-import csv
-import json
-from json2html import *
 import pandas as pd
+from .models import Customer
 
 
 posts = [
@@ -38,5 +36,15 @@ def table(request):
     data_html = data.to_html()
     context = {'loaded_data': data_html}
     return render(request, "blog/table.html", context)
+
+def data(request):
+    data = Customer.objects.all()
+
+    cust = {
+        "customer_data": data
+    }
+
+
+    return render(request, "blog/data.html", cust)
     
 
