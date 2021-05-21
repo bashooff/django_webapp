@@ -38,8 +38,11 @@ def table(request):
     return render(request, "blog/table.html", context)
 
 def data(request):
+    
     data = Customer.objects.all()
-
+    for item in data:
+        print('#################################################################')
+        print(item)
     cust = {
         "customer_data": data
     }
