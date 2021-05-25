@@ -5,7 +5,8 @@ from django.db import models
 # each attribute is a different field in the database
 
 class Customer(models.Model):
-    customer = models.CharField(max_length = 100)
+    id = models.AutoField(primary_key=True)
+    customer = models.TextField(null=True)
     orderedItemID = models.IntegerField()
     amount = models.IntegerField()
     gender = models.TextField()
