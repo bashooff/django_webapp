@@ -1,12 +1,24 @@
 {% extends "blog/base.html" %} 
 {% block content %}
-<table>
-    {% for customer in customer_data %}
-        {{ customer.customer }}
-        {{ customer.orderedItemID }}
-        {{ customer.amount }}
-        {{ customer.gender }}
-    {% endfor %}
-</table>
+<div class="table1">
+    {% if customer_data %}
+        <table>
+            <thead>
+                <th>customerID</th>
+                <th>orderedItemID</th>
+                <th>amount</th>
+                <th>gender</th>
+            </thead>
+
+            {% for customer in customer_data %}
+            <tr>
+                <td>{{ customer.customer }}</td>
+                <td>{{ customer.orderedItemID }}</td>
+                <td>{{ customer.amount }}</td>
+                <td>{{ customer.gender }}</td>
+            </tr>
+            {% endfor %}    
+        </table>
+</div>
 
 {% endblock content %}

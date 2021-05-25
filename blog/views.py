@@ -48,6 +48,6 @@ def data(request):
     }
 
 
-    return render(request, "blog/data.html", cust)
+    return render(request, "blog/data.html", context=cust)
     
 
