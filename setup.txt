@@ -1,0 +1,22 @@
+Deploying a Django app with Apache& mod_wsgi
+
+1. Download and install Apache 2.4 in C:/Apache24. Also download Visual C++ just in case.
+   Use Apache Lounge, or any flavor you prefer.
+  - After copying files over to C:/Apache24, open a CMD terminal as Administrator.
+  - Navigate to C:/Apache24 and run bin\httpd.exe -k install to install the Apache service.
+  - You can then navigate to localhost to view the test page.
+
+
+You can start the service by running httpd.exe -k start
+
+You can stop the services by running httpd.exe -k stop and restart it by httpd.exe -k restart
+
+Install Microsoft C++ Build Tools. You will need this before you run pip install mod_wsgi.
+
+Install Python 3.7 in C:/Python37 (you don't need to create a virtual environment)
+
+Install django, openpyxl, modwsgi (see install_requirements.bat)
+
+On a CMD terminal, run mod_wsgi-express module-config, then copy the contents and edit webproject/httpd.conf.template. Edit paths to Python and your Django project.
+
+On a CMD terminal, run C:/Apache24/bin/httpd.exe -k start, open a web browser and navigate to localhost (make sure ALLOWED_HOSTS has been updated).
