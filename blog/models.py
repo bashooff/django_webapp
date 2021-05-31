@@ -5,10 +5,11 @@ from django.db import models
 # each attribute is a different field in the database
 
 class Customer(models.Model):
-    customer = models.CharField(max_length = 100)
-    orderedItemID = models.IntegerField()
-    amount = models.IntegerField()
-    gender = models.TextField()
+    id = models.AutoField(primary_key=True)
+    customer = models.TextField(null=True)
+    orderedItemID = models.IntegerField(null=True)
+    amount = models.IntegerField(null=True)
+    gender = models.TextField(null=True)
 
     def __str__(self):
         return self.customer
